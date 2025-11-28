@@ -151,8 +151,10 @@ boton.addEventListener("click", () => {
       }, 2000);
     }
   });
+})();
 
-    document.addEventListener("visibilitychange", function () {
+// --- Pausar música cuando el usuario cambia de pestaña ---
+document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
       // Si el usuario sale de la pestaña → pausar
       audio.pause();
@@ -161,4 +163,4 @@ boton.addEventListener("click", () => {
       // audio.play();   // ← si NO quieres que reproduzca solo al volver, quítalo
     }
   });
-})();
+
