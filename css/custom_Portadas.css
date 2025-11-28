@@ -71,7 +71,7 @@
 /* PORTADA */
 .bgPortada {
 	background-image: url("../images/rosas.jpeg");
-	background-position: 50%, 50%;
+	background-position: 80%, 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,22 +90,11 @@
 /*	background-color: rgba(0, 0, 0, 0.3);*/
 }
 
-/* --- Ajustes solo para celular --- */
-@media only screen and (max-width: 600px) {
-  .bgPortada {
-    background-size: cover;  /* muestra la imagen completa */
-    background-repeat: no-repeat;
-    background-position: center top;      /* ajusta si quieres que se enfoque arriba */
-    height: 100vh;                          /* evita que se vea demasiado alta */
-    transform: scale(1.3);
-  }
-}
-
 /* COUNTER */
 
 .bgCounter {
 	background-image: url("../images/rosas.jpeg");
-	background-position: 50%, 50%;
+	background-position: 80%, 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -200,7 +189,7 @@
   
 .bgFinal {
 	background-image: url("../images/rosas.jpeg");
-	background-position: 70% 50%;
+	background-position: 80% 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -219,5 +208,6 @@
 	background-color: rgba(0, 0, 0, 0.2);
 
 }
+
 
 
