@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     background-position: center top;      /* ajusta si quieres que se enfoque arriba */
     height: 100vh;                          /* evita que se vea demasiado alta */
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 }
 
@@ -219,4 +219,5 @@
 	background-color: rgba(0, 0, 0, 0.2);
 
 }
+
 
