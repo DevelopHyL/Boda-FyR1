@@ -119,7 +119,7 @@
   
 .bgItinerario {
 	background-image: url("../images/d7ecba04-46d2-431a-922b-29e11c74cc94.JPEG");
-	background-position: 50%, 50%;
+	background-position: 40%, 60%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -189,7 +189,7 @@
   
 .bgFinal {
 	background-image: url("../images/rosas.jpeg");
-	background-position: 40% 60%;
+	background-position: 40%, 60%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -206,11 +206,4 @@
 	left: 0;
 	right: 0;
 	background-color: rgba(0, 0, 0, 0.2);
-
 }
-
-
-
-
-
-
