@@ -93,10 +93,11 @@
 /* --- Ajustes solo para celular --- */
 @media only screen and (max-width: 600px) {
   .bgPortada {
-    background-size: contain !important;  /* muestra la imagen completa */
+    background-size: cover;  /* muestra la imagen completa */
     background-repeat: no-repeat;
     background-position: center top;      /* ajusta si quieres que se enfoque arriba */
-    height: 70vh;                          /* evita que se vea demasiado alta */
+    height: 100vh;                          /* evita que se vea demasiado alta */
+    transform: scale(1.2);
   }
 }
 
@@ -218,3 +219,4 @@
 	background-color: rgba(0, 0, 0, 0.2);
 
 }
+
