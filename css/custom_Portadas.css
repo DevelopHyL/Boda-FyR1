@@ -71,7 +71,7 @@
 /* PORTADA */
 .bgPortada {
 	background-image: url("../images/rosas.jpeg");
-	background-position: 100%, 50%;
+	background-position: 10%, 50%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -208,6 +208,7 @@
 	background-color: rgba(0, 0, 0, 0.2);
 
 }
+
 
 
 
