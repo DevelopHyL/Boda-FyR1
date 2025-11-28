@@ -90,6 +90,16 @@
 /*	background-color: rgba(0, 0, 0, 0.3);*/
 }
 
+/* --- Ajustes solo para celular --- */
+@media only screen and (max-width: 600px) {
+  .bgPortada {
+    background-size: contain !important;  /* muestra la imagen completa */
+    background-repeat: no-repeat;
+    background-position: center top;      /* ajusta si quieres que se enfoque arriba */
+    height: 70vh;                          /* evita que se vea demasiado alta */
+  }
+}
+
 /* COUNTER */
 
 .bgCounter {
@@ -206,4 +216,5 @@
 	left: 0;
 	right: 0;
 	background-color: rgba(0, 0, 0, 0.2);
+
 }
