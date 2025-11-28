@@ -151,4 +151,14 @@ boton.addEventListener("click", () => {
       }, 2000);
     }
   });
+
+    document.addEventListener("visibilitychange", function () {
+    if (document.hidden) {
+      // Si el usuario sale de la pestaña → pausar
+      audio.pause();
+    } else {
+      // Si regresa a la pestaña → opcional: volver a reproducir
+      // audio.play();   // ← si NO quieres que reproduzca solo al volver, quítalo
+    }
+  });
 })();
