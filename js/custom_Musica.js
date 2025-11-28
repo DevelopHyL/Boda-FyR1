@@ -160,7 +160,8 @@ document.addEventListener("visibilitychange", function () {
       audio.pause();
     } else {
       // Si regresa a la pestaña → opcional: volver a reproducir
-      // audio.play();   // ← si NO quieres que reproduzca solo al volver, quítalo
+      audio.play();   // ← si NO quieres que reproduzca solo al volver, quítalo
     }
   });
+
 
